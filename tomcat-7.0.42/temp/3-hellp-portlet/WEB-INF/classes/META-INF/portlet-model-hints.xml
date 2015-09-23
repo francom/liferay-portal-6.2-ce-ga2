@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+
+<model-hints>
+	<model name="com.service.model.AcademicYear">
+		<field name="id" type="long" />
+		<field name="name" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+	</model>
+	<model name="com.service.model.Student">
+		<field name="id" type="long" />
+		<field name="firstName" type="String" />
+		<field name="lastName" type="String" />
+		<field name="examFee" type="double" />
+		<field name="gender" type="String" />
+		<field name="subjectsId" type="int" />
+		<field name="academicYearId" type="long" />
+		<field name="address" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+	</model>
+	<model name="com.service.model.Subject">
+		<field name="id" type="long" />
+		<field name="name" type="String" />
+		<field name="createDate" type="Date" />
+		<field name="modifiedDate" type="Date" />
+	</model>
+</model-hints>

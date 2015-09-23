@@ -1,0 +1,551 @@
+03:49:41,004 INFO  [localhost-startStop-1][DialectDetector:71] Determine dialect for MySQL 5
+03:49:41,096 INFO  [localhost-startStop-1][DialectDetector:136] Found dialect org.hibernate.dialect.MySQLDialect
+03:50:47,477 INFO  [localhost-startStop-1][BaseDB:484] Database does not support case sensitive queries
+03:50:50,588 INFO  [localhost-startStop-1][ServerDetector:119] Server supports hot deploy
+03:50:50,625 INFO  [localhost-startStop-1][PluginPackageUtil:1013] Reading plugin package for the root context
+03:53:45,301 INFO  [localhost-startStop-1][AutoDeployDir:139] Auto deploy scanner started for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy
+03:53:56,412 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing hellp-portlet-6.2.0.1.war
+03:53:58,351 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:79] Copying portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war
+03:53:58,479 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying hellp-portlet-6.2.0.1.war
+03:53:59,885 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:962] Updating Hellp from version 6.2.0.1 to version 6.2.0.1
+03:54:13,898 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2383] Modifying Servlet 2.5 E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150922035359940\WEB-INF\web.xml
+03:54:17,743 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:91] Portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war copied successfully. Deployment will start in a few seconds.
+03:55:27,334 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin hello-portlet requires marketplace-portlet
+03:55:33,165 INFO  [localhost-startStop-1][HotDeployImpl:252] Queueing hello-portlet for deploy because it is missing marketplace-portlet
+03:55:48,750 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin hellp-portlet requires marketplace-portlet
+03:55:48,751 INFO  [localhost-startStop-1][HotDeployImpl:252] Queueing hellp-portlet for deploy because it is missing marketplace-portlet
+03:57:33,227 INFO  [localhost-startStop-1][HotDeployImpl:198] Deploying marketplace-portlet from queue
+03:57:36,528 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for marketplace-portlet
+03:57:51,138 INFO  [localhost-startStop-1][HookHotDeployListener:687] Registering hook for marketplace-portlet
+03:57:53,481 INFO  [localhost-startStop-1][HookHotDeployListener:814] Hook for marketplace-portlet is available for use
+03:57:53,510 INFO  [localhost-startStop-1][PortletHotDeployListener:343] Registering portlets for marketplace-portlet
+03:57:54,918 INFO  [localhost-startStop-1][PortletHotDeployListener:495] 3 portlets for marketplace-portlet are available for use
+03:57:54,984 INFO  [localhost-startStop-1][HotDeployImpl:198] Deploying hello-portlet from queue
+03:57:54,986 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for hello-portlet
+03:57:58,360 INFO  [localhost-startStop-1][PortletHotDeployListener:343] Registering portlets for hello-portlet
+03:58:00,223 INFO  [localhost-startStop-1][PortletHotDeployListener:495] 2 portlets for hello-portlet are available for use
+03:58:00,224 INFO  [localhost-startStop-1][HotDeployImpl:198] Deploying hellp-portlet from queue
+03:58:00,224 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for hellp-portlet
+03:58:01,803 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:313] Running test SQL scripts
+03:58:04,284 WARN  [localhost-startStop-1][BaseDB:457] Table 'db_test_academicyear' already exists: create table db_test_academicYear (id_ bigint not null primary key,name varchar(75) null,createDate datetime null,modifiedDate datetime null) engine InnoDB;_ [Sanitized]
+03:58:17,097 INFO  [localhost-startStop-1][PortletHotDeployListener:343] Registering portlets for hellp-portlet
+03:58:19,556 WARN  [localhost-startStop-1][PortletLocalServiceImpl:802] Portlet with the name hello_WAR_hellpportlet is described in portlet.xml but does not have a matching entry in liferay-portlet.xml
+03:58:19,651 INFO  [localhost-startStop-1][PortletHotDeployListener:495] 2 portlets for hellp-portlet are available for use
+04:11:35,122 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing hellp-portlet-6.2.0.1.war
+04:11:37,325 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:79] Copying portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war
+04:11:43,859 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying hellp-portlet-6.2.0.1.war
+04:11:44,668 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:962] Updating Hellp from version 6.2.0.1 to version 6.2.0.1
+04:11:51,626 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2383] Modifying Servlet 2.5 E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150922041144681\WEB-INF\web.xml
+04:11:53,399 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:91] Portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war copied successfully. Deployment will start in a few seconds.
+04:12:20,360 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][HotDeployEvent:130] Plugin hellp-portlet requires marketplace-portlet
+04:12:28,429 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PortletHotDeployListener:523] Unregistering portlets for hellp-portlet
+04:12:32,574 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PortletHotDeployListener:563] 2 portlets for hellp-portlet were unregistered
+04:12:45,335 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1016] Reading plugin package for hellp-portlet
+04:14:07,893 INFO  [localhost-startStop-2][HotDeployEvent:130] Plugin hellp-portlet requires marketplace-portlet
+04:14:08,071 INFO  [localhost-startStop-2][HotDeployImpl:198] Deploying hellp-portlet from queue
+04:14:08,483 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for hellp-portlet
+04:14:33,607 INFO  [localhost-startStop-2][PortletHotDeployListener:343] Registering portlets for hellp-portlet
+04:14:36,581 WARN  [localhost-startStop-2][PortletLocalServiceImpl:802] Portlet with the name hello_WAR_hellpportlet is described in portlet.xml but does not have a matching entry in liferay-portlet.xml
+04:14:39,261 INFO  [localhost-startStop-2][PortletHotDeployListener:495] 2 portlets for hellp-portlet are available for use
+04:17:44,067 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing hellp-portlet-6.2.0.1.war
+04:17:46,504 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:79] Copying portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war
+04:17:47,699 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying hellp-portlet-6.2.0.1.war
+04:17:48,245 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:962] Updating Hellp from version 6.2.0.1 to version 6.2.0.1
+04:17:52,725 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2383] Modifying Servlet 2.5 E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150922041748270\WEB-INF\web.xml
+04:17:54,551 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:91] Portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war copied successfully. Deployment will start in a few seconds.
+04:17:58,045 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][HotDeployEvent:130] Plugin hellp-portlet requires marketplace-portlet
+04:17:58,090 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PortletHotDeployListener:523] Unregistering portlets for hellp-portlet
+04:17:58,724 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PortletHotDeployListener:563] 2 portlets for hellp-portlet were unregistered
+04:17:59,974 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1016] Reading plugin package for hellp-portlet
+04:18:17,160 INFO  [localhost-startStop-3][HotDeployEvent:130] Plugin hellp-portlet requires marketplace-portlet
+04:18:17,161 INFO  [localhost-startStop-3][HotDeployImpl:198] Deploying hellp-portlet from queue
+04:18:17,162 INFO  [localhost-startStop-3][PluginPackageUtil:1016] Reading plugin package for hellp-portlet
+04:18:32,794 INFO  [localhost-startStop-3][PortletHotDeployListener:343] Registering portlets for hellp-portlet
+04:18:33,898 WARN  [localhost-startStop-3][PortletLocalServiceImpl:802] Portlet with the name hello_WAR_hellpportlet is described in portlet.xml but does not have a matching entry in liferay-portlet.xml
+04:18:34,326 INFO  [localhost-startStop-3][PortletHotDeployListener:495] 2 portlets for hellp-portlet are available for use
+04:20:17,187 ERROR [http-bio-8080-exec-16][MVCPortlet:366] html/hello/view.jsp is not a valid include
+04:23:09,408 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing hellp-portlet-6.2.0.1.war
+04:23:11,207 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:79] Copying portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war
+04:23:12,452 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying hellp-portlet-6.2.0.1.war
+04:23:13,036 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:962] Updating Hellp from version 6.2.0.1 to version 6.2.0.1
+04:23:18,767 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2383] Modifying Servlet 2.5 E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150922042313054\WEB-INF\web.xml
+04:23:20,703 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][HotDeployEvent:130] Plugin hellp-portlet requires marketplace-portlet
+04:23:20,790 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PortletHotDeployListener:523] Unregistering portlets for hellp-portlet
+04:23:21,133 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:91] Portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war copied successfully. Deployment will start in a few seconds.
+04:23:21,211 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PortletHotDeployListener:563] 2 portlets for hellp-portlet were unregistered
+04:23:23,510 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1016] Reading plugin package for hellp-portlet
+04:23:33,917 INFO  [localhost-startStop-4][HotDeployEvent:130] Plugin hellp-portlet requires marketplace-portlet
+04:23:33,918 INFO  [localhost-startStop-4][HotDeployImpl:198] Deploying hellp-portlet from queue
+04:23:33,918 INFO  [localhost-startStop-4][PluginPackageUtil:1016] Reading plugin package for hellp-portlet
+04:23:50,598 INFO  [localhost-startStop-4][PortletHotDeployListener:343] Registering portlets for hellp-portlet
+04:23:51,258 WARN  [localhost-startStop-4][PortletLocalServiceImpl:802] Portlet with the name hello_WAR_hellpportlet is described in portlet.xml but does not have a matching entry in liferay-portlet.xml
+04:23:51,763 INFO  [localhost-startStop-4][PortletHotDeployListener:495] 2 portlets for hellp-portlet are available for use
+04:24:40,621 INFO  [localhost-startStop-5][HotDeployEvent:130] Plugin hellp-portlet requires marketplace-portlet
+04:24:40,631 INFO  [localhost-startStop-5][PortletHotDeployListener:523] Unregistering portlets for hellp-portlet
+04:24:40,633 INFO  [localhost-startStop-5][PortletHotDeployListener:563] 2 portlets for hellp-portlet were unregistered
+04:24:40,642 INFO  [localhost-startStop-5][PluginPackageUtil:1016] Reading plugin package for hellp-portlet
+04:24:40,687 INFO  [localhost-startStop-5][PortletHotDeployListener:523] Unregistering portlets for marketplace-portlet
+04:24:40,830 INFO  [localhost-startStop-5][PortletHotDeployListener:563] 3 portlets for marketplace-portlet were unregistered
+04:24:41,189 INFO  [localhost-startStop-5][HookHotDeployListener:944] Hook for marketplace-portlet was unregistered
+04:24:42,209 INFO  [localhost-startStop-5][PluginPackageUtil:1016] Reading plugin package for marketplace-portlet
+04:24:43,392 INFO  [localhost-startStop-5][HotDeployEvent:130] Plugin hello-portlet requires marketplace-portlet
+04:24:43,394 INFO  [localhost-startStop-5][PortletHotDeployListener:523] Unregistering portlets for hello-portlet
+04:24:43,399 INFO  [localhost-startStop-5][PortletHotDeployListener:563] 2 portlets for hello-portlet were unregistered
+04:24:43,880 INFO  [localhost-startStop-5][PluginPackageUtil:1016] Reading plugin package for hello-portlet
+09:10:15,303 INFO  [localhost-startStop-1][DialectDetector:71] Determine dialect for MySQL 5
+09:10:15,416 INFO  [localhost-startStop-1][DialectDetector:136] Found dialect org.hibernate.dialect.MySQLDialect
+09:11:11,500 INFO  [localhost-startStop-1][BaseDB:484] Database does not support case sensitive queries
+09:11:14,536 INFO  [localhost-startStop-1][ServerDetector:119] Server supports hot deploy
+09:11:14,606 INFO  [localhost-startStop-1][PluginPackageUtil:1013] Reading plugin package for the root context
+09:14:41,905 INFO  [localhost-startStop-1][AutoDeployDir:139] Auto deploy scanner started for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy
+09:14:52,926 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing hellp-portlet-6.2.0.1.war
+09:14:53,085 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:79] Copying portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war
+09:14:53,654 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying hellp-portlet-6.2.0.1.war
+09:14:55,954 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:962] Updating Hellp from version 6.2.0.1 to version 6.2.0.1
+09:15:10,940 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2383] Modifying Servlet 2.5 E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150922091455962\WEB-INF\web.xml
+09:15:16,255 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:91] Portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war copied successfully. Deployment will start in a few seconds.
+09:15:39,808 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin hello-portlet requires marketplace-portlet
+09:15:47,857 INFO  [localhost-startStop-1][HotDeployImpl:252] Queueing hello-portlet for deploy because it is missing marketplace-portlet
+09:17:49,267 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin hellp-portlet requires marketplace-portlet
+09:17:49,270 INFO  [localhost-startStop-1][HotDeployImpl:252] Queueing hellp-portlet for deploy because it is missing marketplace-portlet
+09:17:53,666 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing marketplace-portlet-6.2.0.1.war
+09:17:53,821 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:79] Copying portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\marketplace-portlet-6.2.0.1.war
+09:17:54,069 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying marketplace-portlet-6.2.0.1.war
+09:17:54,110 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:962] Updating Marketplace from version 6.2.0.1 to version 6.2.0.1
+09:18:03,216 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2383] Modifying Servlet 2.4 E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150922091754110\WEB-INF\web.xml
+09:18:04,464 ERROR [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:220] com.liferay.portal.kernel.deploy.auto.AutoDeployException: Failed to copy E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150922091754110\WEB-INF\lib\log4j.jar to E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\webapps\marketplace-portlet\WEB-INF\lib\log4j.jar due to java.io.FileNotFoundException E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\webapps\marketplace-portlet\WEB-INF\lib\log4j.jar (The requested operation cannot be performed on a file with a user-mapped section open)
+com.liferay.portal.kernel.deploy.auto.AutoDeployException: Failed to copy E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150922091754110\WEB-INF\lib\log4j.jar to E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\webapps\marketplace-portlet\WEB-INF\lib\log4j.jar due to java.io.FileNotFoundException E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\webapps\marketplace-portlet\WEB-INF\lib\log4j.jar (The requested operation cannot be performed on a file with a user-mapped section open)
+	at com.liferay.portal.tools.deploy.BaseDeployer.autoDeploy(BaseDeployer.java:212)
+	at com.liferay.portal.deploy.auto.ThreadSafeAutoDeployer.autoDeploy(ThreadSafeAutoDeployer.java:36)
+	at com.liferay.portal.deploy.auto.PortletAutoDeployListener.deploy(PortletAutoDeployListener.java:88)
+	at com.liferay.portal.kernel.deploy.auto.AutoDeployDir.deploy(AutoDeployDir.java:50)
+	at com.liferay.portal.kernel.deploy.auto.AutoDeployDir.processFile(AutoDeployDir.java:211)
+	at com.liferay.portal.kernel.deploy.auto.AutoDeployDir.scanDirectory(AutoDeployDir.java:275)
+	at com.liferay.portal.kernel.deploy.auto.AutoDeployScanner.run(AutoDeployScanner.java:58)
+Caused by: Failed to copy E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150922091754110\WEB-INF\lib\log4j.jar to E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\webapps\marketplace-portlet\WEB-INF\lib\log4j.jar due to java.io.FileNotFoundException E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\webapps\marketplace-portlet\WEB-INF\lib\log4j.jar (The requested operation cannot be performed on a file with a user-mapped section open)
+	at org.apache.tools.ant.taskdefs.Copy.doFileOperations(Copy.java:890)
+	at org.apache.tools.ant.taskdefs.Copy.execute(Copy.java:549)
+	at com.liferay.util.ant.CopyTask.copyDirectory(CopyTask.java:67)
+	at com.liferay.portal.tools.deploy.BaseDeployer.deployDirectory(BaseDeployer.java:816)
+	at com.liferay.portal.tools.deploy.BaseDeployer.deployFile(BaseDeployer.java:1060)
+	at com.liferay.portal.tools.deploy.BaseDeployer.deployFile(BaseDeployer.java:992)
+	at com.liferay.portal.tools.deploy.BaseDeployer.autoDeploy(BaseDeployer.java:209)
+	... 6 more
+Caused by: java.io.FileNotFoundException: E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\webapps\marketplace-portlet\WEB-INF\lib\log4j.jar (The requested operation cannot be performed on a file with a user-mapped section open)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.apache.tools.ant.util.ResourceUtils.copyResource(ResourceUtils.java:523)
+	at org.apache.tools.ant.util.FileUtils.copyFile(FileUtils.java:559)
+	at org.apache.tools.ant.taskdefs.Copy.doFileOperations(Copy.java:875)
+	... 12 more
+09:18:05,135 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:224] Add marketplace-portlet-6.2.0.1.war to the blacklist
+09:18:51,552 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing marketplace-portlet-6.2.0.1.war
+09:18:51,554 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:79] Copying portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\marketplace-portlet-6.2.0.1.war
+09:18:51,574 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying marketplace-portlet-6.2.0.1.war
+09:18:51,578 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:962] Updating Marketplace from version 6.2.0.1 to version 6.2.0.1
+09:18:52,393 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2383] Modifying Servlet 2.4 E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150922091851579\WEB-INF\web.xml
+09:18:55,967 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:91] Portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\marketplace-portlet-6.2.0.1.war copied successfully. Deployment will start in a few seconds.
+09:19:06,270 INFO  [localhost-startStop-2][HotDeployImpl:198] Deploying marketplace-portlet from queue
+09:19:06,272 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for marketplace-portlet
+09:19:09,370 INFO  [localhost-startStop-2][HookHotDeployListener:687] Registering hook for marketplace-portlet
+09:19:09,984 INFO  [localhost-startStop-2][HookHotDeployListener:814] Hook for marketplace-portlet is available for use
+09:19:09,993 INFO  [localhost-startStop-2][PortletHotDeployListener:343] Registering portlets for marketplace-portlet
+09:19:10,871 INFO  [localhost-startStop-2][PortletHotDeployListener:495] 3 portlets for marketplace-portlet are available for use
+09:19:10,873 INFO  [localhost-startStop-2][HotDeployImpl:198] Deploying hello-portlet from queue
+09:19:10,874 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for hello-portlet
+09:19:11,073 INFO  [localhost-startStop-2][PortletHotDeployListener:343] Registering portlets for hello-portlet
+09:19:11,175 INFO  [localhost-startStop-2][PortletHotDeployListener:495] 2 portlets for hello-portlet are available for use
+09:19:11,175 INFO  [localhost-startStop-2][HotDeployImpl:198] Deploying hellp-portlet from queue
+09:19:11,176 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for hellp-portlet
+09:19:12,073 INFO  [localhost-startStop-2][ServiceComponentLocalServiceImpl:313] Running tbl SQL scripts
+09:19:14,351 WARN  [localhost-startStop-2][BaseDB:457] Table 'db_test_academicyear' already exists: create table db_test_academicYear (id_ bigint not null primary key,name varchar(75) null,createDate datetime null,modifiedDate datetime null) engine InnoDB;_ [Sanitized]
+09:19:17,140 WARN  [localhost-startStop-2][BaseDB:457] Duplicate column name 'id_': create table test_Student_AcademicYears (id_ bigint not null,id_ bigint not null,primary key (id_, id_)) engine InnoDB;_ [Sanitized]
+09:19:22,012 WARN  [localhost-startStop-2][BaseDB:457] Table 'db_test.test_student_academicyears' doesn't exist: create index IX_49E4B230 on test_Student_AcademicYears (id_);_ [Sanitized]
+09:19:25,226 ERROR [localhost-startStop-2][ContextLoader:206] Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.service.service.AcademicYearLocalService' defined in ServletContext resource [/WEB-INF/classes/META-INF/portlet-spring.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.service.service.impl.AcademicYearLocalServiceImpl]: Is it an abstract class?; nested exception is java.lang.InstantiationException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:964)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:910)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:484)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:455)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:585)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:282)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:204)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at com.liferay.portal.spring.context.PortletContextLoaderListener.contextInitialized(PortletContextLoaderListener.java:85)
+	at com.liferay.portal.deploy.hot.SpringHotDeployListener.doInvokeDeploy(SpringHotDeployListener.java:85)
+	at com.liferay.portal.deploy.hot.SpringHotDeployListener.invokeDeploy(SpringHotDeployListener.java:41)
+	at com.liferay.portal.deploy.hot.HotDeployImpl.doFireDeployEvent(HotDeployImpl.java:208)
+	at com.liferay.portal.deploy.hot.HotDeployImpl.doFireDeployEvent(HotDeployImpl.java:235)
+	at com.liferay.portal.deploy.hot.HotDeployImpl.doFireDeployEvent(HotDeployImpl.java:235)
+	at com.liferay.portal.deploy.hot.HotDeployImpl.fireDeployEvent(HotDeployImpl.java:95)
+	at com.liferay.portal.kernel.deploy.hot.HotDeployUtil.fireDeployEvent(HotDeployUtil.java:27)
+	at com.liferay.portal.kernel.servlet.PluginContextListener.fireDeployEvent(PluginContextListener.java:164)
+	at com.liferay.portal.kernel.servlet.PluginContextListener.doPortalInit(PluginContextListener.java:154)
+	at com.liferay.portal.kernel.util.BasePortalLifecycle.portalInit(BasePortalLifecycle.java:44)
+	at com.liferay.portal.kernel.util.PortalLifecycleUtil.register(PortalLifecycleUtil.java:64)
+	at com.liferay.portal.kernel.util.PortalLifecycleUtil.register(PortalLifecycleUtil.java:56)
+	at com.liferay.portal.kernel.util.BasePortalLifecycle.registerPortalLifecycle(BasePortalLifecycle.java:54)
+	at com.liferay.portal.kernel.servlet.PluginContextListener.contextInitialized(PluginContextListener.java:116)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1113)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1671)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.service.service.impl.AcademicYearLocalServiceImpl]: Is it an abstract class?; nested exception is java.lang.InstantiationException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:129)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:74)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:957)
+	... 42 more
+Caused by: java.lang.InstantiationException
+	at sun.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:126)
+	... 44 more
+09:19:25,231 ERROR [localhost-startStop-2][HotDeployImpl:211] com.liferay.portal.kernel.deploy.hot.HotDeployException: Error initializing Spring for hellp-portlethellp-portlet
+com.liferay.portal.kernel.deploy.hot.HotDeployException: Error initializing Spring for hellp-portlethellp-portlet
+	at com.liferay.portal.kernel.deploy.hot.BaseHotDeployListener.throwHotDeployException(BaseHotDeployListener.java:46)
+	at com.liferay.portal.deploy.hot.SpringHotDeployListener.invokeDeploy(SpringHotDeployListener.java:44)
+	at com.liferay.portal.deploy.hot.HotDeployImpl.doFireDeployEvent(HotDeployImpl.java:208)
+	at com.liferay.portal.deploy.hot.HotDeployImpl.doFireDeployEvent(HotDeployImpl.java:235)
+	at com.liferay.portal.deploy.hot.HotDeployImpl.doFireDeployEvent(HotDeployImpl.java:235)
+	at com.liferay.portal.deploy.hot.HotDeployImpl.fireDeployEvent(HotDeployImpl.java:95)
+	at com.liferay.portal.kernel.deploy.hot.HotDeployUtil.fireDeployEvent(HotDeployUtil.java:27)
+	at com.liferay.portal.kernel.servlet.PluginContextListener.fireDeployEvent(PluginContextListener.java:164)
+	at com.liferay.portal.kernel.servlet.PluginContextListener.doPortalInit(PluginContextListener.java:154)
+	at com.liferay.portal.kernel.util.BasePortalLifecycle.portalInit(BasePortalLifecycle.java:44)
+	at com.liferay.portal.kernel.util.PortalLifecycleUtil.register(PortalLifecycleUtil.java:64)
+	at com.liferay.portal.kernel.util.PortalLifecycleUtil.register(PortalLifecycleUtil.java:56)
+	at com.liferay.portal.kernel.util.BasePortalLifecycle.registerPortalLifecycle(BasePortalLifecycle.java:54)
+	at com.liferay.portal.kernel.servlet.PluginContextListener.contextInitialized(PluginContextListener.java:116)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase.addChildInternal(ContainerBase.java:901)
+	at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:877)
+	at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:633)
+	at org.apache.catalina.startup.HostConfig.deployDirectory(HostConfig.java:1113)
+	at org.apache.catalina.startup.HostConfig$DeployDirectory.run(HostConfig.java:1671)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask$Sync.innerRun(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'com.service.service.AcademicYearLocalService' defined in ServletContext resource [/WEB-INF/classes/META-INF/portlet-spring.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.service.service.impl.AcademicYearLocalServiceImpl]: Is it an abstract class?; nested exception is java.lang.InstantiationException
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:964)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:910)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:484)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:455)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:293)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:290)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:192)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:585)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:895)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:425)
+	at org.springframework.web.context.ContextLoader.createWebApplicationContext(ContextLoader.java:282)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:204)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:47)
+	at com.liferay.portal.spring.context.PortletContextLoaderListener.contextInitialized(PortletContextLoaderListener.java:85)
+	at com.liferay.portal.deploy.hot.SpringHotDeployListener.doInvokeDeploy(SpringHotDeployListener.java:85)
+	at com.liferay.portal.deploy.hot.SpringHotDeployListener.invokeDeploy(SpringHotDeployListener.java:41)
+	... 26 more
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [com.service.service.impl.AcademicYearLocalServiceImpl]: Is it an abstract class?; nested exception is java.lang.InstantiationException
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:129)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:74)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:957)
+	... 42 more
+Caused by: java.lang.InstantiationException
+	at sun.reflect.InstantiationExceptionConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:126)
+	... 44 more
+09:19:25,237 INFO  [localhost-startStop-2][PortletHotDeployListener:343] Registering portlets for hellp-portlet
+09:19:25,622 WARN  [localhost-startStop-2][PortletLocalServiceImpl:802] Portlet with the name hello_WAR_hellpportlet is described in portlet.xml but does not have a matching entry in liferay-portlet.xml
+09:19:25,657 INFO  [localhost-startStop-2][PortletHotDeployListener:495] 2 portlets for hellp-portlet are available for use
+09:20:47,473 ERROR [http-bio-8080-exec-3][PortletServlet:116] javax.portlet.PortletException: java.lang.ExceptionInInitializerError
+javax.portlet.PortletException: java.lang.ExceptionInInitializerError
+	at com.liferay.portal.kernel.portlet.LiferayPortlet.callActionMethod(LiferayPortlet.java:166)
+	at com.liferay.util.bridges.mvc.MVCPortlet.callActionMethod(MVCPortlet.java:247)
+	at com.liferay.portal.kernel.portlet.LiferayPortlet.processAction(LiferayPortlet.java:78)
+	at com.liferay.util.bridges.mvc.MVCPortlet.processAction(MVCPortlet.java:210)
+	at com.liferay.portlet.FilterChainImpl.doFilter(FilterChainImpl.java:71)
+	at com.liferay.portal.kernel.portlet.PortletFilterUtil.doFilter(PortletFilterUtil.java:48)
+	at com.liferay.portal.kernel.servlet.PortletServlet.service(PortletServlet.java:112)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.doInclude(ApplicationDispatcher.java:605)
+	at org.apache.catalina.core.ApplicationDispatcher.include(ApplicationDispatcher.java:544)
+	at com.liferay.portlet.InvokerPortletImpl.invoke(InvokerPortletImpl.java:604)
+	at com.liferay.portlet.InvokerPortletImpl.invokeAction(InvokerPortletImpl.java:649)
+	at com.liferay.portlet.InvokerPortletImpl.processAction(InvokerPortletImpl.java:312)
+	at com.liferay.portlet.PortletContainerImpl._doProcessAction(PortletContainerImpl.java:402)
+	at com.liferay.portlet.PortletContainerImpl.processAction(PortletContainerImpl.java:110)
+	at com.liferay.portlet.SecurityPortletContainerWrapper.processAction(SecurityPortletContainerWrapper.java:109)
+	at com.liferay.portlet.RestrictPortletContainerWrapper.processAction(RestrictPortletContainerWrapper.java:75)
+	at com.liferay.portal.kernel.portlet.PortletContainerUtil.processAction(PortletContainerUtil.java:115)
+	at com.liferay.portal.action.LayoutAction.processLayout(LayoutAction.java:356)
+	at com.liferay.portal.action.LayoutAction.doExecute(LayoutAction.java:178)
+	at com.liferay.portal.action.LayoutAction.execute(LayoutAction.java:79)
+	at org.apache.struts.action.RequestProcessor.processActionPerform(RequestProcessor.java:431)
+	at org.apache.struts.action.RequestProcessor.process(RequestProcessor.java:236)
+	at com.liferay.portal.struts.PortalRequestProcessor.process(PortalRequestProcessor.java:173)
+	at org.apache.struts.action.ActionServlet.process(ActionServlet.java:1196)
+	at org.apache.struts.action.ActionServlet.doPost(ActionServlet.java:432)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:647)
+	at com.liferay.portal.servlet.MainServlet.callParentService(MainServlet.java:546)
+	at com.liferay.portal.servlet.MainServlet.service(MainServlet.java:523)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.secure.SecureFilter.processFilter(SecureFilter.java:293)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.jsoncontenttype.JSONContentTypeFilter.processFilter(JSONContentTypeFilter.java:42)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:412)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at com.liferay.portal.servlet.FriendlyURLServlet.service(FriendlyURLServlet.java:160)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:728)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:116)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.strip.StripFilter.processFilter(StripFilter.java:359)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.gzip.GZipFilter.processFilter(GZipFilter.java:123)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.secure.SecureFilter.processFilter(SecureFilter.java:293)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.i18n.I18nFilter.processFilter(I18nFilter.java:243)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.jsoncontenttype.JSONContentTypeFilter.processFilter(JSONContentTypeFilter.java:42)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.autologin.AutoLoginFilter.processFilter(AutoLoginFilter.java:263)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.sso.ntlm.NtlmPostFilter.processFilter(NtlmPostFilter.java:83)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.sharepoint.SharepointFilter.processFilter(SharepointFilter.java:88)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.BaseFilter.processFilter(BaseFilter.java:169)
+	at com.liferay.portal.servlet.filters.virtualhost.VirtualHostFilter.processFilter(VirtualHostFilter.java:226)
+	at com.liferay.portal.kernel.servlet.BaseFilter.doFilter(BaseFilter.java:59)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:185)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at org.tuckey.web.filters.urlrewrite.UrlRewriteFilter.doFilter(UrlRewriteFilter.java:738)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDoFilter(InvokerFilterChain.java:204)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:109)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:165)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.processDirectCallFilter(InvokerFilterChain.java:185)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilterChain.doFilter(InvokerFilterChain.java:96)
+	at com.liferay.portal.kernel.servlet.filters.invoker.InvokerFilter.doFilter(InvokerFilter.java:96)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:99)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1023)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:589)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.ExceptionInInitializerError
+	at com.service.model.impl.StudentModelImpl.<clinit>(StudentModelImpl.java:85)
+	at com.test.HelloPortlet.addStudent(HelloPortlet.java:52)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.liferay.portal.kernel.portlet.LiferayPortlet.callActionMethod(LiferayPortlet.java:148)
+	... 134 more
+Caused by: java.lang.NullPointerException
+	at com.liferay.portal.configuration.easyconf.ClassLoaderAggregateProperties.addGlobalFileName(ClassLoaderAggregateProperties.java:74)
+	at com.liferay.portal.configuration.easyconf.ClassLoaderComponentConfiguration._getAvailableProperties(ClassLoaderComponentConfiguration.java:115)
+	at com.liferay.portal.configuration.easyconf.ClassLoaderComponentConfiguration.getProperties(ClassLoaderComponentConfiguration.java:77)
+	at com.liferay.portal.configuration.ConfigurationImpl.getComponentProperties(ConfigurationImpl.java:414)
+	at com.liferay.portal.configuration.ConfigurationImpl.printSources(ConfigurationImpl.java:429)
+	at com.liferay.portal.configuration.ConfigurationImpl.<init>(ConfigurationImpl.java:78)
+	at com.liferay.portal.configuration.ConfigurationImpl.<init>(ConfigurationImpl.java:55)
+	at com.liferay.portal.configuration.ConfigurationFactoryImpl.getConfiguration(ConfigurationFactoryImpl.java:32)
+	at com.liferay.portal.kernel.configuration.ConfigurationFactoryUtil.getConfiguration(ConfigurationFactoryUtil.java:27)
+	at com.liferay.util.service.ServiceProps.<init>(ServiceProps.java:66)
+	at com.liferay.util.service.ServiceProps.<clinit>(ServiceProps.java:70)
+	... 141 more
+09:20:47,716 ERROR [http-bio-8080-exec-3][render_portlet_jsp:132] null
+java.lang.NullPointerException
+	at com.liferay.portal.configuration.easyconf.ClassLoaderAggregateProperties.addGlobalFileName(ClassLoaderAggregateProperties.java:74)
+	at com.liferay.portal.configuration.easyconf.ClassLoaderComponentConfiguration._getAvailableProperties(ClassLoaderComponentConfiguration.java:115)
+	at com.liferay.portal.configuration.easyconf.ClassLoaderComponentConfiguration.getProperties(ClassLoaderComponentConfiguration.java:77)
+	at com.liferay.portal.configuration.ConfigurationImpl.getComponentProperties(ConfigurationImpl.java:414)
+	at com.liferay.portal.configuration.ConfigurationImpl.printSources(ConfigurationImpl.java:429)
+	at com.liferay.portal.configuration.ConfigurationImpl.<init>(ConfigurationImpl.java:78)
+	at com.liferay.portal.configuration.ConfigurationImpl.<init>(ConfigurationImpl.java:55)
+	at com.liferay.portal.configuration.ConfigurationFactoryImpl.getConfiguration(ConfigurationFactoryImpl.java:32)
+	at com.liferay.portal.kernel.configuration.ConfigurationFactoryUtil.getConfiguration(ConfigurationFactoryUtil.java:27)
+	at com.liferay.util.service.ServiceProps.<init>(ServiceProps.java:66)
+	at com.liferay.util.service.ServiceProps.<clinit>(ServiceProps.java:70)
+	at com.service.model.impl.StudentModelImpl.<clinit>(StudentModelImpl.java:85)
+	at com.test.HelloPortlet.addStudent(HelloPortlet.java:52)
+	at com.liferay.portal.kernel.portlet.LiferayPortlet.callActionMethod(LiferayPortlet.java:148)
+	at com.liferay.util.bridges.mvc.MVCPortlet.callActionMethod(MVCPortlet.java:247)
+	at com.liferay.portal.kernel.portlet.LiferayPortlet.processAction(LiferayPortlet.java:78)
+	at com.liferay.util.bridges.mvc.MVCPortlet.processAction(MVCPortlet.java:210)
+	at com.liferay.portlet.FilterChainImpl.doFilter(FilterChainImpl.java:71)
+	at com.liferay.portal.kernel.portlet.PortletFilterUtil.doFilter(PortletFilterUtil.java:48)
+	at com.liferay.portal.kernel.servlet.PortletServlet.service(PortletServlet.java:112)
+09:26:34,102 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing hellp-portlet-6.2.0.1.war
+09:26:35,287 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:79] Copying portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war
+09:26:36,634 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying hellp-portlet-6.2.0.1.war
+09:26:37,711 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:962] Updating Hellp from version 6.2.0.1 to version 6.2.0.1
+09:26:41,186 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2383] Modifying Servlet 2.5 E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150922092637735\WEB-INF\web.xml
+09:26:43,797 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:91] Portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war copied successfully. Deployment will start in a few seconds.
+09:26:57,361 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][HotDeployEvent:130] Plugin hellp-portlet requires marketplace-portlet
+09:27:15,390 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PortletHotDeployListener:523] Unregistering portlets for hellp-portlet
+09:27:16,323 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PortletHotDeployListener:563] 2 portlets for hellp-portlet were unregistered
+09:27:16,386 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1016] Reading plugin package for hellp-portlet
+09:27:18,673 INFO  [localhost-startStop-3][PortletHotDeployListener:523] Unregistering portlets for marketplace-portlet
+09:27:18,682 INFO  [localhost-startStop-3][PortletHotDeployListener:563] 3 portlets for marketplace-portlet were unregistered
+09:27:18,788 INFO  [localhost-startStop-3][HookHotDeployListener:944] Hook for marketplace-portlet was unregistered
+09:27:19,333 INFO  [localhost-startStop-3][PluginPackageUtil:1016] Reading plugin package for marketplace-portlet
+09:27:19,481 INFO  [localhost-startStop-3][HotDeployEvent:130] Plugin hello-portlet requires marketplace-portlet
+09:27:19,482 INFO  [localhost-startStop-3][PortletHotDeployListener:523] Unregistering portlets for hello-portlet
+09:27:19,489 INFO  [localhost-startStop-3][PortletHotDeployListener:563] 2 portlets for hello-portlet were unregistered
+09:27:19,653 INFO  [localhost-startStop-3][PluginPackageUtil:1016] Reading plugin package for hello-portlet
+09:31:20,178 INFO  [localhost-startStop-1][DialectDetector:71] Determine dialect for MySQL 5
+09:31:20,531 INFO  [localhost-startStop-1][DialectDetector:136] Found dialect org.hibernate.dialect.MySQLDialect
+09:32:40,408 INFO  [localhost-startStop-1][BaseDB:484] Database does not support case sensitive queries
+09:32:41,632 INFO  [localhost-startStop-1][ServerDetector:119] Server supports hot deploy
+09:32:41,649 INFO  [localhost-startStop-1][PluginPackageUtil:1013] Reading plugin package for the root context
+09:35:46,962 INFO  [localhost-startStop-1][AutoDeployDir:139] Auto deploy scanner started for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy
+09:35:58,710 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing hellp-portlet-6.2.0.1.war
+09:36:06,748 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:79] Copying portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war
+09:36:12,504 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying hellp-portlet-6.2.0.1.war
+09:36:15,721 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:962] Updating Hellp from version 6.2.0.1 to version 6.2.0.1
+09:37:36,256 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2383] Modifying Servlet 2.5 E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150922093616606\WEB-INF\web.xml
+09:37:40,918 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:91] Portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war copied successfully. Deployment will start in a few seconds.
+09:38:25,729 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin hello-portlet requires marketplace-portlet
+09:38:27,753 INFO  [localhost-startStop-1][HotDeployImpl:252] Queueing hello-portlet for deploy because it is missing marketplace-portlet
+09:38:31,385 INFO  [localhost-startStop-1][HotDeployEvent:130] Plugin hellp-portlet requires marketplace-portlet
+09:38:31,386 INFO  [localhost-startStop-1][HotDeployImpl:252] Queueing hellp-portlet for deploy because it is missing marketplace-portlet
+09:38:40,577 INFO  [localhost-startStop-1][HotDeployImpl:198] Deploying marketplace-portlet from queue
+09:38:40,579 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for marketplace-portlet
+09:38:47,430 INFO  [localhost-startStop-1][HookHotDeployListener:687] Registering hook for marketplace-portlet
+09:38:48,281 INFO  [localhost-startStop-1][HookHotDeployListener:814] Hook for marketplace-portlet is available for use
+09:38:48,290 INFO  [localhost-startStop-1][PortletHotDeployListener:343] Registering portlets for marketplace-portlet
+09:38:49,295 INFO  [localhost-startStop-1][PortletHotDeployListener:495] 3 portlets for marketplace-portlet are available for use
+09:38:49,298 INFO  [localhost-startStop-1][HotDeployImpl:198] Deploying hello-portlet from queue
+09:38:49,299 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for hello-portlet
+09:38:49,552 INFO  [localhost-startStop-1][PortletHotDeployListener:343] Registering portlets for hello-portlet
+09:38:49,725 INFO  [localhost-startStop-1][PortletHotDeployListener:495] 2 portlets for hello-portlet are available for use
+09:38:49,726 INFO  [localhost-startStop-1][HotDeployImpl:198] Deploying hellp-portlet from queue
+09:38:49,727 INFO  [localhost-startStop-1][PluginPackageUtil:1016] Reading plugin package for hellp-portlet
+09:38:50,456 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:322] Upgrading tbl database to build number 31
+09:38:50,459 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:329] Upgrading database with tables.sql
+09:38:50,698 WARN  [localhost-startStop-1][BaseDB:457] Table 'db_test_academicyear' already exists: create table db_test_AcademicYear (id_ bigint not null primary key,name varchar(75) null,createDate datetime null,modifiedDate datetime null) engine InnoDB;_ [Sanitized]
+09:38:50,802 WARN  [localhost-startStop-1][BaseDB:457] Table 'db_test_students' already exists: create table db_test_Students (id_ bigint not null primary key,firstName varchar(75) null,lastName varchar(75) null,examFee integer,gender integer,subjectsId integer,address varchar(75) null,createDate datetime null,modifiedDate datetime null) engine InnoDB;_ [Sanitized]
+09:38:50,806 WARN  [localhost-startStop-1][BaseDB:457] Table 'db_test_subjects' already exists: create table db_test_Subjects (id_ bigint not null primary key,name varchar(75) null,createDate datetime null,modifiedDate datetime null) engine InnoDB;_ [Sanitized]
+09:38:50,815 WARN  [localhost-startStop-1][BaseDB:457] Table 'db_test_academicyear' already exists: create table db_test_academicYear (id_ bigint not null primary key,name varchar(75) null,createDate datetime null,modifiedDate datetime null) engine InnoDB;_ [Sanitized]
+09:38:50,967 WARN  [localhost-startStop-1][BaseDB:457] Table 'tbl_academicyear' already exists: create table tbl_AcademicYear (id_ bigint not null primary key,name varchar(75) null,createDate datetime null,modifiedDate datetime null) engine InnoDB;_ [Sanitized]
+09:38:50,976 WARN  [localhost-startStop-1][BaseDB:457] Table 'tbl_student' already exists: create table tbl_Student (id_ bigint not null primary key,firstName varchar(75) null,lastName varchar(75) null,examFee double,gender varchar(75) null,subjectsId integer,academicYearId bigint,address varchar(75) null,createDate datetime null,modifiedDate datetime null) engine InnoDB;_ [Sanitized]
+09:38:50,985 WARN  [localhost-startStop-1][BaseDB:457] Table 'tbl_subject' already exists: create table tbl_Subject (id_ bigint not null primary key,name varchar(75) null,createDate datetime null,modifiedDate datetime null) engine InnoDB;_ [Sanitized]
+09:38:51,021 WARN  [localhost-startStop-1][BaseDB:457] Table 'test_academicyear' already exists: create table test_AcademicYear (id_ bigint not null primary key,name varchar(75) null,createDate datetime null,modifiedDate datetime null) engine InnoDB;_ [Sanitized]
+09:38:51,084 WARN  [localhost-startStop-1][BaseDB:457] Table 'test_student' already exists: create table test_Student (id_ bigint not null primary key,firstName varchar(75) null,lastName varchar(75) null,examFee double,gender integer,subjectsId integer,academicYearId bigint,address varchar(75) null,createDate datetime null,modifiedDate datetime null) engine InnoDB;_ [Sanitized]
+09:38:51,111 WARN  [localhost-startStop-1][BaseDB:457] Duplicate column name 'id_': create table test_Student_AcademicYears (id_ bigint not null,id_ bigint not null,primary key (id_, id_)) engine InnoDB;_ [Sanitized]
+09:38:51,121 WARN  [localhost-startStop-1][BaseDB:457] Table 'test_students' already exists: create table test_Students (id_ bigint not null primary key,firstName varchar(75) null,lastName varchar(75) null,examFee double,gender integer,subjectsId integer,address varchar(75) null,createDate datetime null,modifiedDate datetime null) engine InnoDB;_ [Sanitized]
+09:38:51,124 WARN  [localhost-startStop-1][BaseDB:457] Table 'test_subject' already exists: create table test_Subject (id_ bigint not null primary key,name varchar(75) null,createDate datetime null,modifiedDate datetime null) engine InnoDB;_ [Sanitized]
+09:38:51,146 WARN  [localhost-startStop-1][BaseDB:457] Table 'test_subjects' already exists: create table test_Subjects (id_ bigint not null primary key,name varchar(75) null,createDate datetime null,modifiedDate datetime null) engine InnoDB;_ [Sanitized]
+09:38:51,149 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:377] No optional file META-INF/portlet-model-hints-ext.xml found
+09:38:51,589 INFO  [localhost-startStop-1][Table:155] Starting backup of tbl_AcademicYear to E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42/temp/temp-db-tbl_AcademicYear-1442914731589
+09:38:51,641 INFO  [localhost-startStop-1][Table:189] Finished backup of tbl_AcademicYear to E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42/temp/temp-db-tbl_AcademicYear-1442914731589 in 52 ms
+09:39:00,413 INFO  [localhost-startStop-1][Table:155] Starting backup of tbl_Student to E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42/temp/temp-db-tbl_Student-1442914740413
+09:39:00,434 INFO  [localhost-startStop-1][Table:189] Finished backup of tbl_Student to E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42/temp/temp-db-tbl_Student-1442914740413 in 21 ms
+09:39:01,454 INFO  [localhost-startStop-1][Table:155] Starting backup of tbl_Subject to E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42/temp/temp-db-tbl_Subject-1442914741454
+09:39:01,483 INFO  [localhost-startStop-1][Table:189] Finished backup of tbl_Subject to E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42/temp/temp-db-tbl_Subject-1442914741454 in 29 ms
+09:39:02,315 INFO  [localhost-startStop-1][ServiceComponentLocalServiceImpl:351] Upgrading database with indexes.sql
+09:39:04,082 WARN  [localhost-startStop-1][BaseDB:457] Table 'db_test.test_student_academicyears' doesn't exist: create index IX_49E4B230 on test_Student_AcademicYears (id_);_ [Sanitized]
+09:39:04,896 INFO  [localhost-startStop-1][PortletHotDeployListener:343] Registering portlets for hellp-portlet
+09:39:05,269 WARN  [localhost-startStop-1][PortletLocalServiceImpl:802] Portlet with the name hello_WAR_hellpportlet is described in portlet.xml but does not have a matching entry in liferay-portlet.xml
+09:39:05,294 INFO  [localhost-startStop-1][PortletHotDeployListener:495] 2 portlets for hellp-portlet are available for use
+10:31:37,924 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing hellp-portlet-6.2.0.1.war
+10:31:39,904 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:79] Copying portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war
+10:32:20,554 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying hellp-portlet-6.2.0.1.war
+10:32:24,959 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:962] Updating Hellp from version 6.2.0.1 to version 6.2.0.1
+10:32:36,782 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2383] Modifying Servlet 2.5 E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150922103224962\WEB-INF\web.xml
+10:33:28,939 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:91] Portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war copied successfully. Deployment will start in a few seconds.
+10:34:15,003 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][HotDeployEvent:130] Plugin hellp-portlet requires marketplace-portlet
+10:34:29,375 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PortletHotDeployListener:523] Unregistering portlets for hellp-portlet
+10:34:37,116 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PortletHotDeployListener:563] 2 portlets for hellp-portlet were unregistered
+10:34:48,751 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1016] Reading plugin package for hellp-portlet
+10:35:47,016 INFO  [localhost-startStop-2][HotDeployEvent:130] Plugin hellp-portlet requires marketplace-portlet
+10:35:47,272 INFO  [localhost-startStop-2][HotDeployImpl:198] Deploying hellp-portlet from queue
+10:35:51,134 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for hellp-portlet
+10:36:51,484 INFO  [localhost-startStop-2][PortletHotDeployListener:343] Registering portlets for hellp-portlet
+10:36:59,622 WARN  [localhost-startStop-2][PortletLocalServiceImpl:802] Portlet with the name hello_WAR_hellpportlet is described in portlet.xml but does not have a matching entry in liferay-portlet.xml
+10:37:03,825 INFO  [localhost-startStop-2][PortletHotDeployListener:495] 2 portlets for hellp-portlet are available for use

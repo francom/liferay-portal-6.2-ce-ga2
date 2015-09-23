@@ -1,0 +1,363 @@
+01:53:59,677 WARN  [C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-AdminTaskTimer][ThreadPoolAsynchronousRunner:743] com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@2607cad0 -- APPARENT DEADLOCK!!! Creating emergency threads for unassigned pending tasks!
+01:54:43,916 WARN  [C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-AdminTaskTimer][ThreadPoolAsynchronousRunner:743] com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@354e9f5b -- APPARENT DEADLOCK!!! Creating emergency threads for unassigned pending tasks!
+01:55:53,122 WARN  [C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-AdminTaskTimer][ThreadPoolAsynchronousRunner:759] com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@2607cad0 -- APPARENT DEADLOCK!!! Complete Status: 
+	Managed Threads: 10
+	Active Threads: 10
+	Active Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@5f138267
+			on thread: C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#1
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@79d668f4
+			on thread: C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#2
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@6b84a9a9
+			on thread: C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#5
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@529ecd64
+			on thread: C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#7
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@37be8a9c
+			on thread: C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#8
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@3e7e245b
+			on thread: C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#4
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@4b84f26a
+			on thread: C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#3
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@54733e2
+			on thread: C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#6
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@59f3d23
+			on thread: C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#9
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@1966c7b7
+			on thread: C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#0
+	Pending Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@2ac1cc68
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@1952d5c6
+Pool thread stack traces:
+	Thread[C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#1,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:674)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#2,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:674)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#5,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:674)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#8,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:674)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#7,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:674)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#4,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:672)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#9,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:672)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#6,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:674)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#3,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:674)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->tuDC8U3E]-HelperThread-#0,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:674)
+
+
+01:55:55,766 WARN  [C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-AdminTaskTimer][ThreadPoolAsynchronousRunner:759] com.mchange.v2.async.ThreadPoolAsynchronousRunner$DeadlockDetector@354e9f5b -- APPARENT DEADLOCK!!! Complete Status: 
+	Managed Threads: 10
+	Active Threads: 10
+	Active Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@19b9b170
+			on thread: C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#7
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@2105aeeb
+			on thread: C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#4
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@7c1ed73c
+			on thread: C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#8
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@4cc4e3cd
+			on thread: C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#1
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@1247cf1b
+			on thread: C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#2
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@286dfefd
+			on thread: C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#3
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@4d7fa8c7
+			on thread: C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#5
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@7821c890
+			on thread: C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#6
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@71f6a38d
+			on thread: C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#9
+		com.mchange.v2.resourcepool.BasicResourcePool$AsyncTestIdleResourceTask@776bb86e
+			on thread: C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#0
+	Pending Tasks: 
+		com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask@41197b02
+		com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask@6fdae1b1
+		com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask@b1764d6
+		com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask@2cdd234a
+		com.mchange.v2.resourcepool.BasicResourcePool$1DestroyResourceTask@6a37e648
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@7befb772
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@36f4dcef
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@5d4eb19
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@5d96b94c
+		com.mchange.v2.resourcepool.BasicResourcePool$ScatteredAcquireTask@525f5c94
+Pool thread stack traces:
+	Thread[C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#7,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:672)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#4,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:674)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#8,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:672)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#1,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:674)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#9,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:674)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#6,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:674)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#5,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:674)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#3,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:674)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#2,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:672)
+	Thread[C3P0PooledConnectionPoolManager[identityToken->WKZg8L7J]-HelperThread-#0,5,main]
+		com.mchange.v2.async.ThreadPoolAsynchronousRunner$PoolThread.run(ThreadPoolAsynchronousRunner.java:674)
+
+
+01:55:56,515 WARN  [PersistedQuartzSchedulerEngineInstance_QuartzSchedulerThread][NewPooledConnection:546] [c3p0] A PooledConnection that has already signalled a Connection error is still in use!
+01:55:57,590 WARN  [PersistedQuartzSchedulerEngineInstance_QuartzSchedulerThread][NewPooledConnection:547] [c3p0] Another error has occurred [ com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed. ] which will not be reported to listeners!
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1014)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1290)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1282)
+	at com.mysql.jdbc.ConnectionImpl.rollback(ConnectionImpl.java:4975)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.rollback(NewProxyConnection.java:860)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.invoke(LazyConnectionDataSourceProxy.java:376)
+	at com.sun.proxy.$Proxy4.rollback(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73)
+	at com.sun.proxy.$Proxy308.rollback(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.rollbackConnection(JobStoreSupport.java:3652)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeInNonManagedTXLock(JobStoreSupport.java:3821)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTriggers(JobStoreSupport.java:2751)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:264)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 42,151,087 milliseconds ago.  The last packet sent successfully to the server was 3,842 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1117)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3492)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4043)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:5282)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.setAutoCommit(NewProxyConnection.java:912)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.getTargetConnection(LazyConnectionDataSourceProxy.java:417)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.invoke(LazyConnectionDataSourceProxy.java:376)
+	at com.sun.proxy.$Proxy4.prepareStatement(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor71.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73)
+	at com.sun.proxy.$Proxy308.prepareStatement(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.selectTriggerToAcquire(StdJDBCDelegate.java:2557)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTrigger(JobStoreSupport.java:2781)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$41.execute(JobStoreSupport.java:2755)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeInNonManagedTXLock(JobStoreSupport.java:3811)
+	... 2 more
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:114)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:161)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:189)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3049)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3503)
+	... 21 more
+01:56:01,091 ERROR [PersistedQuartzSchedulerEngineInstance_QuartzSchedulerThread][PortalJobStore:120] Couldn't rollback jdbc connection. No operations allowed after connection closed.
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1014)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1290)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1282)
+	at com.mysql.jdbc.ConnectionImpl.rollback(ConnectionImpl.java:4975)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.rollback(NewProxyConnection.java:860)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.invoke(LazyConnectionDataSourceProxy.java:376)
+	at com.sun.proxy.$Proxy4.rollback(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73)
+	at com.sun.proxy.$Proxy308.rollback(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.rollbackConnection(JobStoreSupport.java:3652)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeInNonManagedTXLock(JobStoreSupport.java:3821)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTriggers(JobStoreSupport.java:2751)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:264)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure__The last packet successfully received from the server was 42,151,087 milliseconds ago.  The last packet sent successfully to the server was 3,842 milliseconds ago. [Sanitized]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1117)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3492)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4043)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:5282)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.setAutoCommit(NewProxyConnection.java:912)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.getTargetConnection(LazyConnectionDataSourceProxy.java:417)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.invoke(LazyConnectionDataSourceProxy.java:376)
+	at com.sun.proxy.$Proxy4.prepareStatement(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor71.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73)
+	at com.sun.proxy.$Proxy308.prepareStatement(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.selectTriggerToAcquire(StdJDBCDelegate.java:2557)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTrigger(JobStoreSupport.java:2781)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$41.execute(JobStoreSupport.java:2755)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeInNonManagedTXLock(JobStoreSupport.java:3811)
+	... 2 more
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:114)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:161)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:189)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3049)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3503)
+	... 21 more
+01:56:02,125 WARN  [PersistedQuartzSchedulerEngineInstance_QuartzSchedulerThread][NewPooledConnection:546] [c3p0] A PooledConnection that has already signalled a Connection error is still in use!
+01:56:02,126 WARN  [PersistedQuartzSchedulerEngineInstance_QuartzSchedulerThread][NewPooledConnection:547] [c3p0] Another error has occurred [ com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed. ] which will not be reported to listeners!
+com.mysql.jdbc.exceptions.jdbc4.MySQLNonTransientConnectionException: No operations allowed after connection closed.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1014)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:988)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:974)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:919)
+	at com.mysql.jdbc.ConnectionImpl.throwConnectionClosedException(ConnectionImpl.java:1290)
+	at com.mysql.jdbc.ConnectionImpl.checkClosed(ConnectionImpl.java:1282)
+	at com.mysql.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:5236)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.setAutoCommit(NewProxyConnection.java:912)
+	at sun.reflect.GeneratedMethodAccessor74.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.invoke(LazyConnectionDataSourceProxy.java:376)
+	at com.sun.proxy.$Proxy4.setAutoCommit(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.restoreOriginalAtributes(AttributeRestoringConnectionInvocationHandler.java:141)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.cleanupConnection(JobStoreSupport.java:3602)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeInNonManagedTXLock(JobStoreSupport.java:3831)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTriggers(JobStoreSupport.java:2751)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:264)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure
+
+The last packet successfully received from the server was 42,151,087 milliseconds ago.  The last packet sent successfully to the server was 3,842 milliseconds ago.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1117)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3492)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4043)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:5282)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.setAutoCommit(NewProxyConnection.java:912)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.getTargetConnection(LazyConnectionDataSourceProxy.java:417)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.invoke(LazyConnectionDataSourceProxy.java:376)
+	at com.sun.proxy.$Proxy4.prepareStatement(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor71.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73)
+	at com.sun.proxy.$Proxy308.prepareStatement(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.selectTriggerToAcquire(StdJDBCDelegate.java:2557)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTrigger(JobStoreSupport.java:2781)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$41.execute(JobStoreSupport.java:2755)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeInNonManagedTXLock(JobStoreSupport.java:3811)
+	... 2 more
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:114)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:161)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:189)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3049)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3503)
+	... 21 more
+01:56:02,278 ERROR [PersistedQuartzSchedulerEngineInstance_QuartzSchedulerThread][ErrorLogger:120] An error occurred while scanning for the next triggers to fire.
+org.quartz.JobPersistenceException: Couldn't acquire next trigger: Communications link failure__The last packet successfully received from the server was 42,151,087 milliseconds ago.  The last packet sent successfully to the server was 3,842 milliseconds ago. [See nested exception: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure__The last packet successfully received from the server was 42,151,087 milliseconds ago.  The last packet sent successfully to the server was 3,842 milliseconds ago.] [Sanitized]
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTrigger(JobStoreSupport.java:2840)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport$41.execute(JobStoreSupport.java:2755)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.executeInNonManagedTXLock(JobStoreSupport.java:3811)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTriggers(JobStoreSupport.java:2751)
+	at org.quartz.core.QuartzSchedulerThread.run(QuartzSchedulerThread.java:264)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.CommunicationsException: Communications link failure__The last packet successfully received from the server was 42,151,087 milliseconds ago.  The last packet sent successfully to the server was 3,842 milliseconds ago. [Sanitized]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.SQLError.createCommunicationsException(SQLError.java:1117)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3603)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3492)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4043)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2503)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2664)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2788)
+	at com.mysql.jdbc.ConnectionImpl.setAutoCommit(ConnectionImpl.java:5282)
+	at com.mchange.v2.c3p0.impl.NewProxyConnection.setAutoCommit(NewProxyConnection.java:912)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.getTargetConnection(LazyConnectionDataSourceProxy.java:417)
+	at org.springframework.jdbc.datasource.LazyConnectionDataSourceProxy$LazyConnectionInvocationHandler.invoke(LazyConnectionDataSourceProxy.java:376)
+	at com.sun.proxy.$Proxy4.prepareStatement(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor71.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.AttributeRestoringConnectionInvocationHandler.invoke(AttributeRestoringConnectionInvocationHandler.java:73)
+	at com.sun.proxy.$Proxy308.prepareStatement(Unknown Source)
+	at org.quartz.impl.jdbcjobstore.StdJDBCDelegate.selectTriggerToAcquire(StdJDBCDelegate.java:2557)
+	at org.quartz.impl.jdbcjobstore.JobStoreSupport.acquireNextTrigger(JobStoreSupport.java:2781)
+	... 4 more
+Caused by: java.net.SocketException: Software caused connection abort: recv failed
+	at java.net.SocketInputStream.socketRead0(Native Method)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at java.net.SocketInputStream.read(Unknown Source)
+	at com.mysql.jdbc.util.ReadAheadInputStream.fill(ReadAheadInputStream.java:114)
+	at com.mysql.jdbc.util.ReadAheadInputStream.readFromUnderlyingStreamIfNecessary(ReadAheadInputStream.java:161)
+	at com.mysql.jdbc.util.ReadAheadInputStream.read(ReadAheadInputStream.java:189)
+	at com.mysql.jdbc.MysqlIO.readFully(MysqlIO.java:3049)
+	at com.mysql.jdbc.MysqlIO.reuseAndReadPacket(MysqlIO.java:3503)
+	... 21 more

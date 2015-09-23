@@ -1,0 +1,135 @@
+06:44:58,610 INFO  [localhost-startStop-1][DialectDetector:71] Determine dialect for HSQL Database Engine 2
+06:44:58,634 WARN  [localhost-startStop-1][DialectDetector:86] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demo'ing purposes. The database settings can be changed in portal-ext.properties.
+06:44:58,710 INFO  [localhost-startStop-1][DialectDetector:136] Found dialect org.hibernate.dialect.HSQLDialect
+06:46:29,775 INFO  [localhost-startStop-1][BaseDB:481] Database supports case sensitive queries
+06:46:31,965 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyProcessSuite
+06:46:31,975 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyProperties
+06:46:32,241 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyDB2
+06:46:32,257 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyMySQL
+06:46:32,257 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyOracle
+06:46:32,257 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifySQLServer
+06:46:32,257 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyUUID
+06:46:32,319 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyPermission
+06:46:33,660 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyGroup
+06:46:33,736 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyRole
+06:46:33,736 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyAsset
+06:46:33,846 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.util.UpgradeAssetPublisherManualEntries
+06:46:33,861 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyAuditedModel
+06:46:33,877 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyBlogs
+06:46:33,908 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyBookmarks
+06:46:33,939 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyCalendar
+06:46:33,986 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyDocumentLibrary
+06:46:34,916 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyDynamicDataMapping
+06:46:34,931 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyGroupId
+06:46:34,931 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyJournal
+06:46:35,088 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyLayout
+06:46:35,178 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyMessageBoards
+06:46:35,194 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyOrganization
+06:46:36,127 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyResourcePermissions
+06:46:36,127 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyUser
+06:46:36,314 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyWiki
+06:46:36,392 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyWorkflow
+06:46:36,916 INFO  [localhost-startStop-1][ServerDetector:119] Server supports hot deploy
+06:46:37,342 INFO  [localhost-startStop-1][PluginPackageUtil:1013] Reading plugin package for the root context
+06:49:20,412 INFO  [localhost-startStop-1][AutoDeployDir:139] Auto deploy scanner started for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy
+06:49:32,711 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing hello-portlet-6.2.0.1.war
+06:49:34,995 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:79] Copying portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hello-portlet-6.2.0.1.war
+06:49:35,930 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying hello-portlet-6.2.0.1.war
+06:49:39,028 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2383] Modifying Servlet 2.5 E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150921064935930\WEB-INF\web.xml
+06:49:41,030 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:91] Portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hello-portlet-6.2.0.1.war copied successfully. Deployment will start in a few seconds.
+06:55:16,503 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][HotDeployEvent:130] Plugin hello-portlet requires marketplace-portlet
+06:55:21,923 INFO  [ContainerBackgroundProcessor[StandardEngine[Catalina]]][PluginPackageUtil:1016] Reading plugin package for hello-portlet
+06:57:39,003 INFO  [localhost-startStop-1][DialectDetector:71] Determine dialect for HSQL Database Engine 2
+06:57:39,089 WARN  [localhost-startStop-1][DialectDetector:86] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demo'ing purposes. The database settings can be changed in portal-ext.properties.
+06:57:39,715 INFO  [localhost-startStop-1][DialectDetector:136] Found dialect org.hibernate.dialect.HSQLDialect
+06:58:23,790 INFO  [localhost-startStop-1][BaseDB:481] Database supports case sensitive queries
+06:58:25,419 INFO  [localhost-startStop-1][ServerDetector:119] Server supports hot deploy
+06:58:25,526 INFO  [localhost-startStop-1][PluginPackageUtil:1013] Reading plugin package for the root context
+07:02:19,950 INFO  [localhost-startStop-1][AutoDeployDir:139] Auto deploy scanner started for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy
+07:05:10,922 INFO  [http-bio-8080-exec-10][SetupWizardSampleDataUtil:58] Adding sample data
+07:06:11,878 INFO  [http-bio-8080-exec-10][SetupWizardSampleDataUtil:141] Finished adding data in 60956 ms
+07:06:26,973 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing marketplace-portlet-6.2.0.1.war
+07:06:26,978 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:79] Copying portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\marketplace-portlet-6.2.0.1.war
+07:06:28,314 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying marketplace-portlet-6.2.0.1.war
+07:06:40,691 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2383] Modifying Servlet 2.4 E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150921070628413\WEB-INF\web.xml
+07:07:00,014 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:91] Portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\marketplace-portlet-6.2.0.1.war copied successfully. Deployment will start in a few seconds.
+08:36:12,829 INFO  [localhost-startStop-1][DialectDetector:71] Determine dialect for MySQL 5
+08:36:12,962 INFO  [localhost-startStop-1][DialectDetector:136] Found dialect org.hibernate.dialect.MySQLDialect
+08:36:52,011 ERROR [localhost-startStop-1][JDBCExceptionReporter:82] Table 'db_test.lock_' doesn't exist
+08:36:52,589 WARN  [localhost-startStop-1][ReleaseLocalServiceImpl:171] Table 'db_test.release_' doesn't exist
+08:36:52,598 INFO  [localhost-startStop-1][ReleaseLocalServiceImpl:84] Create tables and populate with default data
+08:41:35,914 INFO  [localhost-startStop-1][DialectDetector:71] Determine dialect for MySQL 5
+08:41:35,984 INFO  [localhost-startStop-1][DialectDetector:136] Found dialect org.hibernate.dialect.MySQLDialect
+08:42:06,923 INFO  [localhost-startStop-1][BaseDB:484] Database does not support case sensitive queries
+08:42:15,199 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyProcessSuite
+08:42:15,201 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyProperties
+08:42:15,234 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyDB2
+08:42:15,235 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyMySQL
+08:42:17,504 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyOracle
+08:42:17,505 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifySQLServer
+08:42:17,506 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyUUID
+08:42:17,716 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyPermission
+08:42:35,519 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyGroup
+08:42:35,579 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyRole
+08:42:35,580 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyAsset
+08:42:35,606 INFO  [localhost-startStop-1][UpgradeProcess:175] Upgrading com.liferay.portal.upgrade.util.UpgradeAssetPublisherManualEntries
+08:42:35,624 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyAuditedModel
+08:42:35,674 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyBlogs
+08:42:35,680 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyBookmarks
+08:42:35,689 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyCalendar
+08:42:35,695 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyDocumentLibrary
+08:42:35,950 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyDynamicDataMapping
+08:42:35,955 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyGroupId
+08:42:35,958 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyJournal
+08:42:35,974 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyLayout
+08:42:36,001 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyMessageBoards
+08:42:36,047 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyOrganization
+08:42:36,059 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyResourcePermissions
+08:42:36,060 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyUser
+08:42:36,097 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyWiki
+08:42:36,111 INFO  [localhost-startStop-1][VerifyProcess:55] Verifying com.liferay.portal.verify.VerifyWorkflow
+08:42:36,273 INFO  [localhost-startStop-1][ServerDetector:119] Server supports hot deploy
+08:42:36,279 INFO  [localhost-startStop-1][PluginPackageUtil:1013] Reading plugin package for the root context
+08:44:28,289 INFO  [localhost-startStop-1][DialectDetector:71] Determine dialect for HSQL Database Engine 2
+08:44:28,295 WARN  [localhost-startStop-1][DialectDetector:86] Liferay is configured to use Hypersonic as its database. Do NOT use Hypersonic in production. Hypersonic is an embedded database useful for development and demo'ing purposes. The database settings can be changed in portal-ext.properties.
+08:44:28,372 INFO  [localhost-startStop-1][DialectDetector:136] Found dialect org.hibernate.dialect.HSQLDialect
+08:45:13,333 INFO  [localhost-startStop-1][BaseDB:481] Database supports case sensitive queries
+08:45:14,109 INFO  [localhost-startStop-1][ServerDetector:119] Server supports hot deploy
+08:45:14,117 INFO  [localhost-startStop-1][PluginPackageUtil:1013] Reading plugin package for the root context
+08:46:15,929 INFO  [localhost-startStop-1][AutoDeployDir:139] Auto deploy scanner started for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy
+08:46:28,336 ERROR [http-bio-8080-exec-5][AutoLoginFilter:257] Current URL /group/quan-tri-he-thong/phan-anh-kien-nghi?p_p_id=apcapakn_WAR_apcapaknportlet&p_p_lifecycle=0&p_p_state=normal&p_p_mode=view&p_p_col_id=column-1&p_p_col_pos=1&p_p_col_count=2&_apcapakn_WAR_apcapaknportlet_mvcPath=%2Fpakn%2Fedit_pakn.jsp&_apcapakn_WAR_apcapaknportlet_paknId=1602&_apcapakn_WAR_apcapaknportlet_REDIRECT=%2Fgroup%2Fquan-tri-he-thong%2Fphan-anh-kien-nghi generates exception: com.liferay.portal.kernel.exception.SystemException: com.liferay.util.EncryptorException: com.liferay.util.EncryptorException: javax.crypto.IllegalBlockSizeException: Input length must be multiple of 16 when decrypting with padded cipher
+08:49:27,002 INFO  [http-bio-8080-exec-5][DialectDetector:71] Determine dialect for MySQL 5
+08:49:27,013 INFO  [http-bio-8080-exec-5][DialectDetector:136] Found dialect org.hibernate.dialect.MySQLDialect
+08:49:29,804 INFO  [http-bio-8080-exec-5][BaseDB:484] Database does not support case sensitive queries
+08:49:54,653 INFO  [http-bio-8080-exec-5][HotDeployImpl:198] Deploying marketplace-portlet from queue
+08:49:54,657 INFO  [http-bio-8080-exec-5][PluginPackageUtil:1016] Reading plugin package for marketplace-portlet
+08:49:54,917 INFO  [http-bio-8080-exec-5][ServiceComponentLocalServiceImpl:313] Running Marketplace SQL scripts
+08:49:59,589 INFO  [http-bio-8080-exec-5][HookHotDeployListener:687] Registering hook for marketplace-portlet
+08:49:59,773 INFO  [http-bio-8080-exec-5][UpgradeProcess:175] Upgrading com.liferay.marketplace.hook.upgrade.UpgradeProcess_1_0_0
+08:49:59,781 INFO  [http-bio-8080-exec-5][UpgradeProcess:175] Upgrading com.liferay.marketplace.hook.upgrade.v1_0_0.UpgradeExpando
+08:50:00,147 INFO  [http-bio-8080-exec-5][HookHotDeployListener:814] Hook for marketplace-portlet is available for use
+08:50:00,155 INFO  [http-bio-8080-exec-5][PortletHotDeployListener:343] Registering portlets for marketplace-portlet
+08:50:01,212 INFO  [http-bio-8080-exec-5][PortletHotDeployListener:495] 3 portlets for marketplace-portlet are available for use
+08:50:01,299 INFO  [http-bio-8080-exec-5][SetupWizardSampleDataUtil:58] Adding sample data
+08:51:03,974 INFO  [http-bio-8080-exec-5][SetupWizardSampleDataUtil:141] Finished adding data in 62675 ms
+09:07:43,998 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing hello-portlet-6.2.0.1.war
+09:07:44,942 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:79] Copying portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hello-portlet-6.2.0.1.war
+09:07:45,776 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying hello-portlet-6.2.0.1.war
+09:07:49,191 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2383] Modifying Servlet 2.5 E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150921090746848\WEB-INF\web.xml
+09:07:49,681 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:91] Portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hello-portlet-6.2.0.1.war copied successfully. Deployment will start in a few seconds.
+09:08:01,546 INFO  [localhost-startStop-2][HotDeployEvent:130] Plugin hello-portlet requires marketplace-portlet
+09:08:01,549 INFO  [localhost-startStop-2][HotDeployImpl:198] Deploying hello-portlet from queue
+09:08:01,564 INFO  [localhost-startStop-2][PluginPackageUtil:1016] Reading plugin package for hello-portlet
+09:08:01,830 INFO  [localhost-startStop-2][PortletHotDeployListener:343] Registering portlets for hello-portlet
+09:08:02,593 INFO  [localhost-startStop-2][PortletHotDeployListener:495] 2 portlets for hello-portlet are available for use
+09:19:39,150 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][AutoDeployDir:204] Processing hellp-portlet-6.2.0.1.war
+09:19:40,288 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:79] Copying portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war
+09:19:42,170 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:859] Deploying hellp-portlet-6.2.0.1.war
+09:19:52,241 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][BaseDeployer:2383] Modifying Servlet 2.5 E:\Job\DEV\liferay-portal-6.2-ce-ga2\tomcat-7.0.42\temp\20150921091942311\WEB-INF\web.xml
+09:19:52,936 INFO  [com.liferay.portal.kernel.deploy.auto.AutoDeployScanner][PortletAutoDeployListener:91] Portlets for E:\Job\DEV\liferay-portal-6.2-ce-ga2\deploy\hellp-portlet-6.2.0.1.war copied successfully. Deployment will start in a few seconds.
+09:20:28,814 INFO  [localhost-startStop-3][HotDeployEvent:130] Plugin hellp-portlet requires marketplace-portlet
+09:20:29,702 INFO  [localhost-startStop-3][HotDeployImpl:198] Deploying hellp-portlet from queue
+09:20:29,723 INFO  [localhost-startStop-3][PluginPackageUtil:1016] Reading plugin package for hellp-portlet
+09:20:34,953 INFO  [localhost-startStop-3][PortletHotDeployListener:343] Registering portlets for hellp-portlet
+09:20:36,216 WARN  [localhost-startStop-3][PortletLocalServiceImpl:802] Portlet with the name hello_WAR_hellpportlet is described in portlet.xml but does not have a matching entry in liferay-portlet.xml
+09:20:40,561 INFO  [localhost-startStop-3][PortletHotDeployListener:495] 2 portlets for hellp-portlet are available for use

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<!DOCTYPE service-builder PUBLIC "-//Liferay//DTD Service Builder 6.2.0//EN" "http://www.liferay.com/dtd/liferay-service-builder_6_2_0.dtd">
+
+<service-builder package-path="com.service">
+	<author>Tofu</author>
+	<namespace>tbl</namespace>
+	<entity name="Student" local-service="true" remote-service="true">
+		<!-- PK fields -->
+		<column name="id" type="long" primary="true"></column>
+		<!-- Group instance -->
+		<column name="firstName" type="String"></column>
+		<!-- Audit fields -->
+		<column name="lastName" type="String"></column>
+		<column name="examFee" type="double"></column>
+		<column name="gender" type="String"></column>
+		<column name="subjectsId" type="int"></column>
+		<column name="academicYearId" type="long"></column>
+		<column name="address" type="String"></column>
+		<column name="createDate" type="Date"></column>
+		<column name="modifiedDate" type="Date"></column>
+		<!-- Order -->
+		<order by="asc">
+			<order-column name="id"></order-column>
+		</order>
+		<finder name="lastName" return-type="lastName" unique="true">
+			<finder-column name="lastName"></finder-column>
+		</finder>
+	</entity>
+	<entity name="AcademicYear" local-service="true" remote-service="true">
+		<column name="id" type="long" primary="true"></column>
+		<column name="name" type="String"></column>
+		<column name="createDate" type="Date"></column>
+		<column name="modifiedDate" type="Date"></column>
+		<order by="asc">
+			<order-column name="id"></order-column>
+		</order>
+		<finder name="name" return-type="name" unique="true">
+			<finder-column name="name"></finder-column>
+		</finder>
+	</entity>
+	<entity name="Subject" local-service="true" remote-service="true">
+		<column name="id" type="long" primary="true"></column>
+		<column name="name" type="String"></column>
+		<column name="createDate" type="Date"></column>
+		<column name="modifiedDate" type="Date"></column>
+		<!-- Order -->
+		<order by="asc">
+			<order-column name="id"></order-column>
+		</order>
+		<finder name="name" return-type="name" unique="true">
+			<finder-column name="name"></finder-column>
+		</finder>
+	</entity>
+</service-builder>
